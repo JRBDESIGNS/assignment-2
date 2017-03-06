@@ -1,0 +1,93 @@
+
+h1 {
+    font-family: 'Audiowide', cursive;
+
+    color: #2c2c2c;
+    text-align: center;
+}
+h2 {
+    
+    
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+h4 {
+    
+    
+    
+}
+
+
+h5 {
+    
+    
+}
+
+h6{
+    
+    
+}
+
+
+
+.parallax-container {
+  min-height: 630px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+    
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 20%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+    min-width: 1000px;
+    text-align: center;
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    text-align: center;
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
